@@ -33,3 +33,4 @@ class Response(Base):
 
     def __repr__(self):
         return f"<Response candidate_id={self.candidate_id}>"
+

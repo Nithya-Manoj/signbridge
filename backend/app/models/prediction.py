@@ -34,3 +34,4 @@ class Prediction(Base):
 
     def __repr__(self):
         return f"<Prediction {self.predicted_sign} conf={self.confidence_score:.2f} low_conf={self.is_low_confidence}>"
+

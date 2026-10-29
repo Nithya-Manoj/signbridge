@@ -35,3 +35,4 @@ class Candidate(Base):
 
     def __repr__(self):
         return f"<Candidate user_id={self.user_id}>"
+

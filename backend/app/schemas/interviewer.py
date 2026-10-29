@@ -21,3 +21,4 @@ class InterviewerResponse(InterviewerBase):
     user: Optional[UserResponse] = None
 
     model_config = ConfigDict(from_attributes=True)
+

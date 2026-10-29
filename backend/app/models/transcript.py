@@ -40,3 +40,4 @@ class Transcript(Base):
 
     def __repr__(self):
         return f"<Transcript role={self.speaker_role} type={self.message_type} text={self.content[:25]}>"
+

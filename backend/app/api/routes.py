@@ -123,3 +123,4 @@ def list_sign_classes(category: Optional[str] = None, db: Session = Depends(get_
     if category:
         query = query.filter(SignClass.category == category)
     return query.all()
+

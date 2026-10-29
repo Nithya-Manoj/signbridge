@@ -229,3 +229,4 @@ def downgrade() -> None:
     op.drop_table('interviewers')
     op.drop_table('candidates')
     op.drop_table('users')
+

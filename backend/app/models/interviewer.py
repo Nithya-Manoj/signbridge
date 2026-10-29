@@ -31,3 +31,4 @@ class Interviewer(Base):
 
     def __repr__(self):
         return f"<Interviewer user_id={self.user_id} dept={self.department}>"
+

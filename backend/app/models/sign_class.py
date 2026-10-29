@@ -27,3 +27,4 @@ class SignClass(Base):
 
     def __repr__(self):
         return f"<SignClass {self.label} ({self.display_name})>"
+

@@ -79,3 +79,4 @@ Run the full automated test suite (covering all 11 database tables, relationship
 pytest backend/tests/ -v
 ```
 All 10 tests pass with 100% success rate.
+

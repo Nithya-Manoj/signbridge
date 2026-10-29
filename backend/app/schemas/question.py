@@ -41,3 +41,4 @@ class InterviewQuestionResponse(InterviewQuestionBase):
     question: Optional[QuestionResponse] = None
 
     model_config = ConfigDict(from_attributes=True)
+

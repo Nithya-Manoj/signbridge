@@ -31,3 +31,4 @@ class InterviewResponse(InterviewBase):
     interview_questions: List[InterviewQuestionResponse] = []
 
     model_config = ConfigDict(from_attributes=True)
+

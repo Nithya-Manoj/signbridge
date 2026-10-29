@@ -53,3 +53,4 @@ class Interview(Base):
 
     def __repr__(self):
         return f"<Interview {self.title} status={self.status}>"
+

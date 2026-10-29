@@ -22,3 +22,4 @@ class ModelVersion(Base):
 
     def __repr__(self):
         return f"<ModelVersion {self.version_tag} ({self.model_type}) active={self.is_active}>"
+

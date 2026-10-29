@@ -135,3 +135,4 @@ def test_interview_cascade_delete(test_db):
     # InterviewQuestions and Transcripts should be cascade deleted
     assert test_db.query(InterviewQuestion).filter(InterviewQuestion.interview_id == interview_id).count() == 0
     assert test_db.query(Transcript).filter(Transcript.interview_id == interview_id).count() == 0
+
